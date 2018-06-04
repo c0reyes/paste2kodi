@@ -1,0 +1,1 @@
+document.getElementById('paste').addEventListener('click', pasteOnClick);

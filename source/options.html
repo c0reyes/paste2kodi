@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>paste2kodi</title>
+  	<style>
+  	.div-table {
+			background-color: #EEEEEE;
+			float: left;
+			padding: 30px;
+			width: auto;
+		}
+		
+		.div-row {
+			float: left;
+			width: 800px;
+		}
+		
+		.div-cell {
+			float: left;
+			padding: 5px;
+			width: 100px;
+			height: 20px;
+		}
+  	</style>
+  </head>
+  <body>
+  	
+  	<div class="div-table">
+  		<div class="div-row">
+  			<h2>Configuration</h2>
+  		</div>
+
+  		<div class="div-row">
+  			<div class="div-cell"><label>IP:</label></div>
+  			<div class="div-cell"><input type="text" id="ip" maxlength="15"></div>
+  		</div>
+  		<div class="div-row">
+  			<div class="div-cell"><label>PORT:</label></div>
+  			<div class="div-cell"><input type="number" id="port"></div>
+  		</div>
+  		<div class="div-row">
+  			<div class="div-cell"><label>USER:</label></div>
+  			<div class="div-cell"><input type="text" id="user"></div>
+  		</div>
+  		<div class="div-row">
+  			<div class="div-cell"><label>PASS:</label></div>
+  			<div class="div-cell"><input type="text" id="pass"></div>
+  		</div>
+
+  		<div class="div-row">
+  			<div id="status"></div>
+    		<button id="save">Save</button>
+  		</div>
+  	</div>
+
+    <script src="js/options.js"></script>
+  </body>
+</html>
