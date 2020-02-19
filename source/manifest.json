@@ -2,6 +2,7 @@
   "manifest_version": 2,
 
   "name": "paste2kodi",
+  "short_name": "paste2kodi",
   "version": "1.0",
   "description": "Select text and paste to remote kodi text input.",
 
